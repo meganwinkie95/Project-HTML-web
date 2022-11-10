@@ -1,196 +1,193 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<title>The Pink Palace hotel</title>
+		<link rel="stylesheet" href="./css/shared.css">
+		<link rel="stylesheet" herf="./css/animations.css">	
 	</head>
+
 	<body>
-	
-		<!-- NAV -->
-		<div>
-			<div>
-				<ul>
-					<a href="#home" id="link"><li>Home</li></a>
-					<a href= "#gallery"><li>Gallery</li></a>
-					<a href="#contact"><li>Booking</li></a>
+		<!--NAV-->
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
+					<a href="#home"><li>Home</li></a>
+					<a href="#gallery"><li>Gallery</li></a>
+					<a href="#contact"><li>Bookings</li></a>
 				</ul>
 			</div>
 		</div>
-		<!--END NAV-->
-		
-		<!--HOME-->
-		<div id="home">
-			<div>
-				<div>
-					<span>The Pink Palace</span>
-				</div>
+	</div>
+	<!--End NAV-->
+
+	<!--Home-->
+	<div id="home">
+		<div class="container">
+			<div class="text-center">
+				<span class="head-main">The Pink Palace</span>
 			</div>
 		</div>
-		<!--END HOME-->
-		
-		<!--GALLERY-->
-		<section>
-			<div id="gallery">
-				<h1>Gallery<h1>
-				<div>
-				
-					<!--PHOTO CONTAINER 1-->
-					<div>
-						<div>
-						<img src=".\images\Thumb\thumbnail_1.jpg" width="500" height="550" alt="Photo of our Lobby">
-							<div>
-								<h3>Click to enlarge</h3>
-								<p>Our Lobby</p>
-							</div>
+	</div>
+	<!--End Home-->
+	
+	<!--Gallery-->
+	<section id="gallery">
+		<div class="container">
+			<h1>Gallery</h1>
+			<div class="flex-container">
+
+				<!--Photo container 1-->
+				<div class="photo-container">
+					<div class="photo">
+						<img src="./images/Thumb/thumbnail_1.jpg" alt="Our Lobby">
+						<div class="photo-overlay">
+							<h3>Click to Enlarge</h3>
+							<p>Our lovely Lobby!</p>
 						</div>
 					</div>
-					<!--END PHOTO CONTAINER 1-->
-					
-					
-					<!--PHOTO CONTAINER 2-->
-					<div>
-						<div>
-							<img src="./images/Thumb/thumbnail_2.jpg" width="550" height="300" alt="Photo of our Ice room">
-							<div>
-								<h3>Click to enlarge</h3>
-								<p>Our Ice themed room!</p>
-							</div>
-						</div>
-					</div>
-					<!--END PHOTO CONTAINER 2-->
-					
-					
-					<!--PHOTO CONTAINER 3-->
-					<div>
-						<div>
-							<img src="./images/Thumb/thumbnail_3.jpg" width="550" height="300" alt="Photo of our Castle room">
-							<div>
-								<h3>Click to enlarge</h3>
-								<p>Our Castle themed room!</p>
-							</div>
-						</div>
-					</div>
-					<!--END PHOTO CONTAINER 3-->
-					
-					
-					<!--PHOTO CONTAINER 4-->
-					<div>
-						<div>
-							<img src="./images/Thumb/thumbnail_4.jpg" width="550" height="300" alt="Photo of our Cave room">
-							<div>
-								<h3>Click to enlarge</h3>
-								<p>Our Cave themed room!</p>
-							</div>
-						</div>
-					</div>
-					<!--END PHOTO CONTAINER 4-->
-					
-					
-					<!--PHOTO CONTAINER 5-->
-					<div>
-						<div>
-							<img src="./images/Thumb/thumbnail_5.jpg" width="550" height="300" alt="Photo of our Mermaid room">
-							<div>
-								<h3>Click to enlarge</h3>
-								<p>Our Mermaid themed room!</p>
-							</div>
-						</div>
-					</div>
-					<!--END PHOTO CONTAINER 5-->
-					
-					
-					<!--PHOTO CONTAINER 6-->
-					<div>
-						<div>
-							<img src="./images/Thumb/thumbnail_6.jpg" width="550" height="300" alt="Photo of our Pirate room">
-							<div>
-								<h3>Click to enlarge</h3>
-								<p>Our Pirate themed room!</p>
-							</div>
-						</div>
-					</div>
-					<!--END PHOTO CONTAINER 6-->
-					
-					
-					<!--PHOTO CONTAINER 7-->
-					<div>
-						<div>
-							<img src="./images/Thumb/thumbnail_7.jpg" width="550" height="300" alt="Photo of our Space room">
-							<div>
-								<h3>Click to enlarge</h3>
-								<p>Our Space themed room!</p>
-							</div>
-						</div>
-					</div>
-					<!--END PHOTO CONTAINER 7-->
-					
-					
-					<!--PHOTO CONTAINER 8-->
-					<div>
-						<div>
-							<img src="./images/Thumb/thumbnail_8.jpg" width="550" height="300" alt="Photo of our Jungle room">
-							<div>
-								<h3>Click to enlarge</h3>
-								<p>Our Jungle themed room!</p>
-							</div>
-						</div>
-					</div>
-					<!--END PHOTO CONTAINER 8-->
-					
-					
-					<!--PHOTO CONTAINER 9-->
-					<div>
-						<div>
-							<img src="./images/Thumb/thumbnail_9.jpg" width="550" height="300" alt="Photo of our Underwater suite">
-							<div>
-								<h3>Click to enlarge</h3>
-								<p>Our Underwater Honeymoon suite!</p>
-							</div>
-						</div>
-					</div>
-					<!--END PHOTO CONTAINER 9-->
 				</div>
+				<!--End Photo Container 1-->
+
+				<!--Photo Container 2-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/Thumb/thumbnail_2.jpg" alt="Our Ice theme room">
+							<div class="photo-overlay">
+								<h3>Click to Enlarge</h3>
+								<p>Our Ice theme room!</p>
+							</div>
+						</div>
+					</div>
+					<!--End Photo Container 2-->
+	
+					<!--Photo Container 3-->
+				<div class="photo-container">
+					<div class="photo">
+						<img src="./images/Thumb/thumbnail_3.jpg" alt="Our Castle theme room">
+						<div class="photo-overlay">
+							<h3>Click to Enlarge</h3>
+							<p>Our Castle theme room!</p>
+						</div>
+					</div>
+				</div>
+				<!--End Photo Container 3-->
+
+					<!--Photo container 4-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/Thumb/thumbnail_4.jpg" alt="Our Cave theme room">
+							<div class="photo-overlay">
+								<h3>Click to Enlarge</h3>
+								<p>Our Cave theme room!</p>
+							</div>
+						</div>
+					</div>
+					<!--End Photo Container 4-->
+	
+					<!--Photo Container 5-->
+				<div class="photo-container">
+					<div class="photo">
+						<img src="./images/Thumb/thumbnail_5.jpg" alt="Our Mermaid theme room">
+						<div class="photo-overlay">
+							<h3>Click to Enlarge</h3>
+							<p>Our Mermaid theme room!</p>
+						</div>
+					</div>
+				</div>
+				<!--End Photo Container 5-->
+
+				<!--Photo Container 6-->
+				<div class="photo-container">
+					<div class="photo">
+						<img src="./images/Thumb/thumbnail_6.jpg" alt="Our Pirate theme room">
+						<div class="photo-overlay">
+							<h3>Click to Enlarge</h3>
+							<p>Our Pirate theme room!</p>
+						</div>
+					</div>
+				</div>
+				<!--End Photo Container 6-->
+
+				<!--Photo Container 7-->
+				<div class="photo-container">
+					<div class="photo">
+						<img src="./images/Thumb/thumbnail_7.jpg" alt="Our Space theme room">
+						<div class="photo-overlay">
+							<h3>Click to Enlarge</h3>
+							<p>Our Space theme room!</p>
+						</div>
+					</div>
+				</div>
+				<!--End Photo Container 7-->
+				<!--Photo Container 8-->
+				<div class="photo-container">
+					<div class="photo">
+						<img src="./images/Thumb/thumbnail_8.jpg" alt="Our Jungle theme room">
+						<div class="photo-overlay">
+							<h3>Click to Enlarge</h3>
+							<p>Our Jungle theme room!</p>
+						</div>
+					</div>
+				</div>
+				<!--End Photo Container 8-->
+
+				<!--Photo Container 9-->
+				<div class="photo-container">
+					<div class="photo">
+						<img src="./images/Thumb/thumbnail_9.jpg" alt="Our Underwater Honeymoon Suite">
+						<div class="photo-overlay">
+							<h3>Click to Enlarge</h3>
+							<p>Our Underwater Honeymoon Suite!</p>
+						</div>
+					</div>
+				</div>
+				<!--End Photo Container 9-->
 			</div>
-		</section>
-		 <!--END GALLERY-->
-		 
-		 <!--RSVP-->
-		 <section>
-			<div id="contact">
-				<div>
-					<h1>Bookings</h1>
-					<div>
-						<h2><span>We have any theme for any occasion!</span>
+		</div>
+	</section>
+	<!--End Gallery-->
+
+	<!--Bookings-->
+	<section id="contact">
+		<div class="container">
+			<div class="heading-padding">
+				<h1 class="heading-padding">Bookings</h1>
+				<div class="Bookings">
+					<h2>
+						<span>Your dream stay is waiting for you!</span>
 						<br />Book your stay today!
-						</h2>
-						<p>
-							Please book online with an email and phone number.
-						</p>
-						<div>
-							<form action=" " method="post">
-								<input class="BOOK" type="text" value="First Name">
-								<input class="BOOK" type="text" value="Last Name">
-								<input class="BOOK" type="text" value="Email Address">
-								<input class="BOOK" type="text" value="Phone number">
-								<div class="form-spacer">
-									<label class="terms">Terms and Conditions</label>
-								</div>
-								<div>
-									<input type="submit" value="submit">
-								</div>
-							</form>
+					</h2>
+					<p class="rsvp-text">
+						Please fill out the form below!
+					</p>
+					<div class="form-rsvp">
+						<form action="" method="post">
+							<input class="Book" type="text" value="" placeholder="First Name">
+							<input class="Book" type="text" value="" placeholder="Last Name">
+							<input class="Book" type="text" value="" placeholder="Email Address">
+							<input class="Book" type="text" value="" placeholder="Phone Number">
+							<div class="form-spacer">
+								<label class="terms">Terms and Conditions</label>
 						</div>
-					</div>
+						<div class="submit">
+							<input type="submit" value="Submit">
+						</div>
+					</form>
 				</div>
 			</div>
-		</section>
-		<!--END RSVP-->
-		
-		<!--FOOTER-->
-		<div>
-			www.ThePinkPalace.com &nbsp;|&nbsp &copy; 2022
 		</div>
-		<!--END FOOTER-->
-	</body>
+	</div>
+</section>
+<!--End Bookings-->
+
+<!--Footer-->
+<div id="footer">
+	www.ThePinkPalace.com &nbsp;|&nbsp; &copy; 2022	
+</div>
+<!--End Footer-->
+
+</body>
+
 </html>
 					
